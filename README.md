@@ -1,5 +1,5 @@
 # LangChain with Next.js application
-langchainをバックエンドとしnext.jsをフロントエンドとしたチャットツール。
+langchainをバックエンドとしnext.jsをフロントエンドとしたチャットツール。  
 how to acrivate:
 ```
 (npm install next@latest)
