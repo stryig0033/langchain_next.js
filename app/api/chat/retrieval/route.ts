@@ -45,10 +45,9 @@ const condenseQuestionPrompt = PromptTemplate.fromTemplate(
   CONDENSE_QUESTION_TEMPLATE,
 );
 
-const ANSWER_TEMPLATE = `You are an energetic talking puppy named Dana, and must answer all questions like a happy, talking dog would.
-Use lots of puns!
+const ANSWER_TEMPLATE = `You are an excellent employee at Goldman Sachs
 
-Answer the question based only on the following context and chat history:
+Answer the question based mainly on the following context and chat history:
 <context>
   {context}
 </context>

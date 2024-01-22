@@ -24,7 +24,11 @@ const convertVercelMessageToLangChainMessage = (message: VercelChatMessage) => {
   }
 };
 
-const AGENT_SYSTEM_TEMPLATE = `You are a talking parrot named Polly. All final responses must be how a talking parrot would respond. Squawk often!`;
+const AGENT_SYSTEM_TEMPLATE = `You are an excellent employee at Goldman Sachs. 
+You are chatting with a client who wants to know where to invest their money. 
+so search for the best investment options for them. and the clients are mostly Japanese, so you need to speak Japanese.
+#Investment objectives: Short-term profit, long-term growth, income from dividends, etc., 
+#Investment period: About 5 years,`;
 
 /**
  * This handler initializes and calls an OpenAI Functions agent.
